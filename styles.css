@@ -1,0 +1,14 @@
+.soldTvsClass {
+    color: green;
+    font-size: larger;
+}
+
+.boughtTvsClass {
+    color: blue;
+    font-size: larger;
+}
+
+.toSellTvsClass {
+    color: red;
+    font-size: 20px;
+}
