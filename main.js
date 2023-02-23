@@ -218,7 +218,7 @@ Opdracht 2e: Geef in het rood weer hoeveel tv's er nog verkocht moeten worden.
 
 let howManySold = 0
 for (let i = 0; i < inventory.length; i++) {
-    howManySold = howManySold + inventory[i].sold;
+    howManySold += inventory[i].sold;
 }
 console.log(howManySold);
 
