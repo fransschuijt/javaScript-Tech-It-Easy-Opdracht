@@ -327,7 +327,7 @@ function screenSizes(inventory) {
         const currentSizeInches = inventory[i];
         const currentSizeCm = inventory[i] * 2.54;
 
-        output = output + `${currentSizeInches} inch (${currentSizeCm} cm)`;
+        output += `${currentSizeInches} inch (${currentSizeCm} cm)`;
 
         if (i < inventory.length - 1) {
             output = `${output} | `;
