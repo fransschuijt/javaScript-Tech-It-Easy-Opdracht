@@ -189,7 +189,7 @@ console.log(soldOut);
 // loop de array langs en return de tv's met 'ambilight: true' en log in de console.
 
 const ambiLight = inventory.filter((ambi) => {
-    return ambi.options.ambiLight === true;
+    return ambi.options.ambiLight;
 })
 console.log(ambiLight);
 
